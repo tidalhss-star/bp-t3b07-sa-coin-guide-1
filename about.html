@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상암 코인노래방 가이드 - 상세 정보 & 위치</title>
+    <meta name="description" content="상암 코인노래방의 모든 정보를 한눈에! 위치, 가격, 시설, 이용 꿀팁까지. 상암동 코인노래방 완벽 가이드로 스마트하게 즐기세요.">
+    <meta name="keywords" content="상암 코인노래방 정보, 상암동 코인노래방 위치, 상암 코인노래방 시설, 상암 노래방 이용팁, 상암 노래방 가격정보">
+    <link rel="canonical" href="https://t3b07-sa-coin-guide-1.vercel.app/info">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <meta property="og:title" content="상암 코인노래방 가이드 - 상세 정보 & 위치">
+    <meta property="og:description" content="상암에서 코인노래방 찾고 있다면? 실시간 가격비교, 위치정보, 솔직 후기까지! 상암 코인노래방 가이드가 친절하게 알려드립니다. 지금 확인하세요.">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #faf8f5;
+            color: #1a1a2e;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        nav {
+            background: #1a1a2e;
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #f4a261;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+        .logo:hover {
+            color: #e76f51;
+        }
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+        .nav-links a {
+            color: #e9ecef;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
+        }
+        .nav-links a:hover {
+            color: #f4a261;
+        }
+        .nav-links a[aria-current="page"] {
+            color: #f4a261;
+        }
+        .nav-links a[aria-current="page"]::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #f4a261;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #e9ecef;
+            margin: 3px 0;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #1a1a2e;
+                flex-direction: column;
+                padding: 20px 24px;
+                gap: 16px;
+                border-top: 1px solid #333;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .container {
+                padding: 0 16px;
+            }
+        }
+        .tel-link {
+            color: #f4a261;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .tel-link:hover {
+            color: #e76f51;
+            text-decoration: underline;
+        }
+        section {
+            padding: 60px 0;
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            color: #1a1a2e;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: #1a1a2e;
+        }
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #264653;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #264653 100%);
+            color: #f1faee;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            color: #f1faee;
+            margin-bottom: 16px;
+        }
+        .hero p {
+            color: #e9ecef;
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #e9ecef;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-bottom: 12px;
+        }
+        .card p {
+            color: #555;
+            margin-bottom: 12px;
+        }
+        .badge {
+            display: inline-block;
+            background: #f4a261;
+            color: #1a1a2e;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .info-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+        .info-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+        .info-list li:last-child {
+            border-bottom: none;
+        }
+        .info-list strong {
+            color: #264653;
+            min-width: 100px;
+        }
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+            border: 1px solid #e9ecef;
+        }
+        .faq-item h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            color: #555;
+            margin-bottom: 0;
+        }
+        footer {
+            background: #1a1a2e;
+            color: #e9ecef;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+        footer p {
+            color: #aaa;
+            margin-bottom: 0;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.6rem; }
+            .hero { padding: 60px 0; }
+            .card-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">🎤 상암코인</a>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/info" aria-current="page">정보</a></li>
+                <li><a href="/price">가격</a></li>
+                <li><a href="/review">후기</a></li>
+                <li><a href="/faq">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>상암 코인노래방 완전 정복</h1>
+            <p>위치부터 가격, 시설, 분위기까지! 상암동 코인노래방의 모든 정보를 친구한테 물어보듯 알려줄게. 놓치면 후회하는 꿀팁 대방출 🎯</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>📍 상암 코인노래방 위치 & 접근성</h2>
+            <p>상암동은 디지털미디어시티(DMC)역을 중심으로 코인노래방이 꽤 모여 있어. 지하철 역에서 도보 5~10분 거리에 대부분 있어서 접근성 좋아. 특히 DMC역 2번 출구 쪽에 밀집해 있어서, 퇴근 길에 들르거나 약속 장소로 잡기도 편해.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <span class="badge">역세권</span>
+                    <h3>DMC역 2번 출구</h3>
+                    <p>도보 3분 거리에 3곳의 코인노래방이 있어. 출구 나와서 직진하면 바로 보이는 건물들에 입점해 있어서 찾기 쉬워. 야간에도 환해서 안전하게 갈 수 있어.</p>
+                </div>
+                <div class="card">
+                    <span class="badge">버스 정류장</span>
+                    <h3>상암동 주민센터 앞</h3>
+                    <p>버스 이용자라면 여기서 내리면 2분 거리에 코인노래방 있어. 간선버스 7016, 7715번 등이 정차해서 환승도 편리해. 주차장 있는 곳도 몇 군데 있으니 차 가져와도 괜찮아.</p>
+                </div>
+                <div class="card">
+                    <span class="badge">랜드마크</span>
+                    <h3>누리꿈스퀘어 주변</h3>
+                    <p>누리꿈스퀘어 건물 지하 1층에도 코인노래방 있어. 쇼핑하거나 영화 보고 나서 들르기 딱 좋아. 건물 내에 편의점도 있어서 간식 사 가기도 편리함.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #f1f3f5;">
+        <div class="container">
+            <h2>🕐 운영 시간 & 이용 팁</h2>
+            <p>상암 코인노래방 대부분은 24시간 운영해. 하지만 일부 매장은 오전 6시부터 오전 10시까지 클린타임(청소 시간)으로 문을 닫기도 하니까 미리 확인하는 게 좋아. 내가 자주 가는 곳은 오전 10시부터 다음 날 오전 6시까지 운영하는데, 새벽에도 사람 많을 때는 웨이팅 있을 수 있어.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>⏰ 피크 타임 피하기</h3>
+                    <p>평일 저녁 7시~9시, 주말 오후 2시~5시는 사람 많아. 오전 10시~12시나 오후 3시~5시쯤 가면 한적하게 즐길 수 있어. 나는 주말 아침에 일찍 가는 걸 추천해.</p>
+                </div>
+                <div class="card">
+                    <h3>💡 꿀팁 대방출</h3>
+                    <p>첫 30분만 이용해도 추가 시간 10~20분씩 주는 곳 많아! 그리고 멤버십 등록하면 10% 할인 받을 수 있어. 친구랑 같이 가면 2인 이용권이 더 저렴한 경우도 있으니 체크해 봐.</p>
+                </div>
+                <div class="card">
+                    <h3>🧹 청소 시간 체크</h3>
+                    <p>매장마다 청소 시간이 달라. 미리 전화해서 물어보거나, 매장 앞에 안내문 확인하는 게 좋아. 나는 한 번 청소 시간에 맞춰서 갔다가 30분 기다린 적 있어…😂</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>🎵 시설 & 음질 비교</h2>
+            <p>상암 코인노래방은 시설 차이가 꽤 나. 어떤 곳은 최신식 TJ미디어 반주기에 고급 마이크를 쓰는 반면, 오래된 곳은 금영 구형 기계를 쓰기도 해. 내 경험상 TJ미디어 K2나 K3 모델이 음질이 좋고 노래 검색도 빨라. 마이크는 슈어(SHURE) 제품 쓰는 곳이 음질이 확실히 좋더라.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>🔊 최신 반주기</h3>
+                    <p>TJ미디어 K3 모델 사용하는 곳: 곡 수 6만 곡 이상, 검색 속도 빠름, 블루투스 연결 가능. EQ 조절도 자유로워서 내 목소리에 맞게 세팅할 수 있어.</p>
+                </div>
+                <div class="card">
+                    <h3>🎤 마이크 품질</h3>
+                    <p>슈어 SM58 쓰는 곳이 음질 압도적. 무선 마이크도 있는데, 가끔 배터리 방전된 경우 있으니 확인해 보는 게 좋아. 나는 항상 마이크 커버 챙겨 가는 편이야.</p>
+                </div>
+                <div class="card">
+                    <h3>🪑 공간 & 인테리어</h3>
+                    <p>2인실은 보통 3~4평, 4인실은 5~6평 정도. 최근 리모델링한 곳은 방음도 잘 되고 조명도 분위기 있어. 벽면에 거울 있는 곳이 더 넓어 보여서 좋더라.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #f1f3f5;">
+        <div class="container">
+            <h2>💰 가격 정보 한눈에</h2>
+            <p>상암 코인노래방 가격대는 보통 1곡에 100~200원, 30분 이용권이 3,000~5,000원 정도야. 하지만 시간대나 요일에 따라 다르니까 아래 표로 정리해 봤어. 참고로 나는 보통 30분 이용권 사고, 추가 시간 붙는 걸로 1시간 정도 노래해.</p>
+            
+            <div class="card-grid" style="grid-template-columns: 1fr;">
+                <div class="card">
+                    <h3>📊 상암 코인노래방 평균 가격표</h3>
+                    <ul class="info-list">
+                        <li><strong>1곡 이용</strong> 100~200원 (매장마다 다름)</li>
+                        <li><strong>30분 이용</strong> 3,000~5,000원 (오전/오후 요금 차이)</li>
+                        <li><strong>1시간 이용</strong> 6,000~9
+</body>
+</html>
